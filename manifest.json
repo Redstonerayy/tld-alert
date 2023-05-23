@@ -1,0 +1,10 @@
+{
+	"manifest_version": 3,
+	"name": "TLD Blocker",
+	"description": "Warn when entering configured Domains",
+	"version": "1.0.0",
+	"permissions": ["webNavigation"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
