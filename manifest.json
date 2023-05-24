@@ -5,6 +5,6 @@
 	"version": "1.0.0",
 	"permissions": ["downloads"],
 	"background": {
-		"service_worker": "background.js"
+		"scripts": ["background.js"]
 	}
 }
