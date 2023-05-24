@@ -3,7 +3,7 @@
 	"name": "TLD Blocker",
 	"description": "Warn when entering configured Domains",
 	"version": "1.0.0",
-	"permissions": ["webNavigation"],
+	"permissions": ["downloads"],
 	"background": {
 		"service_worker": "background.js"
 	}
