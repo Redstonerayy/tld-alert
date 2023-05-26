@@ -8,3 +8,8 @@
     align-items: center;
     flex-direction: column;
 }
+
+.container > h2 {
+    width: 60%;
+    text-align: center;
+}

@@ -1,9 +1,9 @@
 {
 	"manifest_version": 3,
-	"name": "TLD Blocker",
-	"description": "Warn when entering configured Domains",
+	"name": "TLD Download Blocker",
+	"description": "Block downloads from configured domains",
 	"version": "1.0.0",
-	"permissions": ["downloads"],
+	"permissions": ["downloads", "storage"],
 	"background": {
 		"scripts": ["background.js"]
 	}
