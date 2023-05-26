@@ -1,0 +1,60 @@
+/*------------ general ------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    width: 350px;
+    height: 60px;
+}
+
+/*------------ container ------------*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*------------ checkbox ------------*/
+.checkbox {
+    width: 35px;
+    height: 12px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #9aa0a6;
+    position: relative;
+    cursor: pointer;
+}
+
+.checked {
+    background-color: #94382e;
+}
+
+.checkbox::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -3px;
+    background-color: #dadce0;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.checked::after {
+    right: 0px;
+    background-color: #ff4530;
+}
+
+/*------------ text, github icon ------------*/
+span {
+    font-size: 16px;
+}
+
+a > img {
+    width: 35px;
+    height: 35px;
+    margin: 20px;
+}

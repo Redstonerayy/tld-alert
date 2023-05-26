@@ -24,7 +24,7 @@ It needs the downloads permission (to cancel downloads).
 
 ## Download from .zip and .mov domains
 
-Just disable the extension for the specific download.
+Just disable the extension for the specific download by clicking the icon in the extension bar .
 
 ## Chrome Webstore
 
