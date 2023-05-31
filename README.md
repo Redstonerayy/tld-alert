@@ -15,12 +15,13 @@ protocol: "https:", userinfo: "github.com ̸Redstonerayy ̸tld-alert ̸releases 
 and the real url (`url.zip`) after the `@`.
 A person might expect to download something else than what is actually downloaded
 at this **potentially** malicious url.
-Therefore blocking downloads from .zip domains can be a safety enhancing option.
+Therefore blocking downloads from .zip/.mov domains can be a safety enhancing option.
 (it shall be mentioned, that `url.zip` is no such malicous download domain)
 
 ## Permissions
 
 It needs the downloads permission (to cancel downloads).
+Storage permission is needed for persisting extension settings.
 
 ## Download from .zip and .mov domains
 
