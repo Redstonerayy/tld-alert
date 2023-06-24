@@ -7,7 +7,9 @@ It aims to prevent malicious downloads caused by accidental clicks.
 
 The new .zip domains makes it easy to create misleading urls to downloads.
 
-https: ̸ ̸github.com ̸Redstonerayy ̸tld-alert ̸releases ̸v127@url.zip
+```
+https:∕∕github.com∕Redstonerayy∕tld-alert∕releases∕v127@url.zip
+```
 
 The above url seems to download a release from this repo in form of a zip file,
 but it actually links to `url.zip`. It can be split in
